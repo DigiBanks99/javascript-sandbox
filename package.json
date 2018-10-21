@@ -1,0 +1,26 @@
+{
+  "name": "javascript-sandbox",
+  "version": "0.0.1",
+  "description": "A sandbox to learn about and try out JavaScript functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigiBanks99/javascript-sandbox.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Wilco Boshoff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DigiBanks99/javascript-sandbox/issues"
+  },
+  "homepage": "https://github.com/DigiBanks99/javascript-sandbox#readme",
+  "devDependencies": {
+    "jest-cli": "^23.6.0"
+  }
+}
