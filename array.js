@@ -4,7 +4,14 @@ module.exports = class MyArray {
     }
 
     simulateMap() {
-        console.log('simulating map');
+        console.log('Running simulateMap...');
         this.value.map(v => console.log(v));
+        console.log('simulateMap ended.');
+    }
+
+    testSpreadOpperator() {
+        console.log('Running testSpreadOperator...');
+        console.log(JSON.stringify({ ...this.value }, null, 2));
+        console.log('testSpreadOperator ended.');
     }
 }

@@ -3,7 +3,7 @@ module.exports = {
         "es6": true,
         "node": true
     },
-    "parserOptions": {"ecmaVersion": 2017},
+    "parserOptions": { "ecmaVersion": 2018 },
     "plugins": ["node"],
     "extends": ["eslint:recommended", "plugin:node/recommended"],
     "rules": {
@@ -13,6 +13,6 @@ module.exports = {
         "semi": ["error", "always"],
         "node/exports-style": ["error", "module.exports"],
         "strict": ["error", "safe"],
-        "no-console":["off"]
+        "no-console": ["off"]
     }
 }
