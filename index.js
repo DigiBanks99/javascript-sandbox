@@ -1,5 +1,6 @@
 const array = require('./array');
 const PromiseDemo = require('./promises');
+const observables = require('./observables');
 
 function run() {
     console.log('Running...');
@@ -21,6 +22,7 @@ function handleArgs(argv) {
         switch (arg.toLowerCase()) {
             case 'promise': handlePromises(); return;
             case 'array': handleArray(); return;
+            case 'observable': handleObservable(); return;
             default: console.error(`Unsupported argument: ${arg}`); return;
         }
     });
@@ -28,23 +30,28 @@ function handleArgs(argv) {
 
 function handlePromises() {
     var promiseDemo = new PromiseDemo();
-    console.log('Running chaningPromises...');
+    console.log('Running changingPromises...');
     promiseDemo.chainingPromises().then((result) => {
         console.log(`Final object:\n${JSON.stringify(result, null, 2)}`);
     });
-    console.log('chaningPromises completed.');
+    console.log('changingPromises completed.');
 
-    console.log('Running chaningPromises2...');
+    console.log('Running changingPromises2...');
     promiseDemo.chainingPromises2().then((result) => {
         console.log(`Final object:\n${JSON.stringify(result, null, 2)}`);
     });
-    console.log('chaningPromises2 completed.');
+    console.log('changingPromises2 completed.');
 }
 
 function handleArray() {
     var myArray = new array([2, 5, 2, 4, 7, 'a', x => 44]);
     myArray.simulateMap();
-    myArray.testSpreadOpperator();
+    myArray.testSpreadOperator();
+}
+
+function handleObservable() {
+    console.log('Running observables...');
+    observables();
 }
 
 run();

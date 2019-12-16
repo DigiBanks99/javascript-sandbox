@@ -9,7 +9,7 @@ module.exports = class MyArray {
         console.log('simulateMap ended.');
     }
 
-    testSpreadOpperator() {
+    testSpreadOperator() {
         console.log('Running testSpreadOperator...');
         console.log(JSON.stringify({ ...this.value }, null, 2));
         console.log('testSpreadOperator ended.');

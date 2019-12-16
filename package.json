@@ -1,6 +1,6 @@
 {
   "name": "javascript-sandbox",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A sandbox to learn about and try out JavaScript functionality.",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,15 @@
   },
   "homepage": "https://github.com/DigiBanks99/javascript-sandbox#readme",
   "devDependencies": {
-    "jest-cli": "^23.6.0"
+    "bufferutil": "^4.0.1",
+    "canvas": "^2.6.1",
+    "jest-cli": "^25.0.0",
+    "utf-8-validate": "^5.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "rxjs": "^6.5.3",
+    "xhr": "^2.5.0",
+    "xmlhttprequest": "^1.8.0"
   }
 }
