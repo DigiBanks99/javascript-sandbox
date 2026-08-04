@@ -23,7 +23,7 @@
   "devDependencies": {
     "bufferutil": "^4.0.1",
     "canvas": "^2.6.1",
-    "jest-cli": "^25.0.0",
+    "jest-cli": "^30.4.2",
     "utf-8-validate": "^5.0.2"
   },
   "dependencies": {
