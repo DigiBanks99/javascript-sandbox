@@ -27,7 +27,7 @@
     "utf-8-validate": "^5.0.2"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.33.0",
     "rxjs": "^6.5.3",
     "xhr": "^2.5.0",
     "xmlhttprequest": "^1.8.0"
